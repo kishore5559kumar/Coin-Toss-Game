@@ -1,0 +1,66 @@
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #334155;
+  height: 470px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: Roboto;
+  color: #a35200;
+  padding-top: 30px;
+}
+
+.desc {
+  font-family: Roboto;
+  color: #334155;
+  font-weight: 800;
+}
+
+.resultImage {
+  height: 150px;
+  width: 150px;
+}
+
+.coinToss {
+  margin-top: 30px;
+  border: none;
+  background-color: #f9d423;
+  font-family: Roboto;
+  border-radius: 6px;
+  color: #a35200;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.result-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.result-score {
+  margin-right: 14px;
+  font-family: Roboto;
+  color: 334155;
+  font-weight: 500;
+}
